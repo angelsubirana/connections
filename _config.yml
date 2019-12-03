@@ -1,0 +1,35 @@
+port: 4000
+host: 0.0.0.0
+safe: false
+
+# Site settings
+title: Still Connections for LinkedIn
+description: Who deleted me on LinkedIn?. 
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+url: https://stillconnections.app
+enforce_ssl: stillconnections.app
+
+
+# User settings
+username: Bobgoo
+email_username: support@bobgoo.com
+twitter_username: BobgooHQ
+
+# Google-analytics
+google_analytics_key:
+
+# Opengraph
+opengraph:
+    title: 
+    description:
+    image: /assets/img/FBBanner.png
+    height: 630
+    width: 1200
+
+# Favicons
+favicon:     /assets/favicon/favicon.ico
+touch_icon:  /assets/faviconapple-touch-icon.png
+
+exclude: ['package.json', 'src' , 'node_modules']
