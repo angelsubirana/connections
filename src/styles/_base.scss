@@ -1,31 +1,32 @@
 body {
-    background: url(../../assets/img/bgnoise.png);
     margin: 0;
     padding: 0;
     font-size: 100%;
     line-height: 1.5;
-    color: #555;
+    color: #FFF;
+    background: url(../../assets/img/bgnoise.png);
+    background-color: $sec;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 article, aside, figcaption, figure, footer, header, nav, section {
     display: block;
 }
-h1, h2, h3, h4, stong {
+h1, h2, h3, h4, strong {
     margin-top: 1em;
+    padding-top: 1em;
     line-height: 1.25;
-    color: #333;
+    color: #FFF;
 }
 h1 {
     font-size: 2.5rem;
-    font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
+	font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
 }
 h2 {
-    font-size: 1.5rem;
-    font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
+    font-size: 2rem;
 }
 h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 h4 {
     font-size: 1rem;
@@ -42,7 +43,4 @@ a img {
 }
 sup, sub {
     line-height: 0;
-}
-p.center {
-    text-align: center;
 }

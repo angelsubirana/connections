@@ -15,7 +15,7 @@ enforce_ssl: stillconnections.app
 # User settings
 username: Bobgoo
 email_username: support@bobgoo.com
-twitter_username: BobgooHQ
+twitter_username: StillConnection
 
 # Google-analytics
 google_analytics_key: UA-25289053-14
@@ -27,6 +27,9 @@ opengraph:
     image: /assets/img/FBBanner.png
     height: 630
     width: 1200
+
+# App Setting (Instagram)
+appstore_link: "https://apps.apple.com/app/still-connections-for-linkedin/id1472334400?mt=8"
 
 # Favicons
 favicon:     /assets/favicon/favicon.ico
