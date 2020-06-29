@@ -3,8 +3,8 @@ host: 0.0.0.0
 safe: false
 
 # Site settings
-title: Still Connections for LinkedIn
-description: Who deleted me on LinkedIn? Whoever removed you on LinkedIn, we will find out them! Download the app for FREE!
+title: Still Friends for LinkedIn
+description: Who deleted me on LinkedIn? Whoever unfriended you on LinkedIn, we will find out them! Download the app for FREE!
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
@@ -15,7 +15,7 @@ enforce_ssl: stillconnections.app
 # User settings
 username: BOBGOO S.L.
 email_username: support@bobgoo.com
-twitter_username: StillConnection
+twitter_username: BobgooHQ
 
 # Google-analytics
 google_analytics_key: UA-25289053-14
